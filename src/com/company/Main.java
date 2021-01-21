@@ -4,15 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int SumInit = 250;
-        int Bonus = 0;
-        int SumAddition=1000;
+        int sumInit = 250;
+        int bonus = 0;
+        int sumAddition = 1000;
 
 
-        Bonus = SumAddition >= 1001? SumAddition/100 :0;
-        SumInit = SumInit + SumAddition + Bonus;
+        bonus = sumAddition >= 1001 ? sumAddition / 100 : 0;
+        sumInit = sumInit + sumAddition + bonus;
 
-        System.out.println("Начальная сумма пополнения = " + SumAddition + "Бонус за рубли: " + Bonus + "Итоговая сумма: " + SumInit);
+        System.out.println("Начальная сумма пополнения = " + sumAddition + "Бонус за рубли: " + bonus + "Итоговая сумма: " + sumInit);
 
     }
 }
