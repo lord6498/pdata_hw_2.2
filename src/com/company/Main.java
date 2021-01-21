@@ -3,16 +3,16 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        int sum_init = 250;
-        int bonus = 0;
-        int sum_addition=1000;
+        // write your code here
+        int SumInit = 250;
+        int Bonus = 0;
+        int SumAddition=1000;
 
 
-        bonus = sum_addition >= 1001? sum_addition/100 :0; 
-        sum_init = sum_init + sum_addition + bonus;
+        Bonus = SumAddition >= 1001? SumAddition/100 :0;
+        SumInit = SumInit + SumAddition + Bonus;
 
-        System.out.println("Начальная сумма = " + sum_init + "Бонус за рубли: " + bonus + "Итоговая сумма: " + sum_init);
+        System.out.println("Начальная сумма пополнения = " + SumAddition + "Бонус за рубли: " + Bonus + "Итоговая сумма: " + SumInit);
 
     }
 }
